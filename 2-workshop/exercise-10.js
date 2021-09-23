@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let pound = "";
+  for (i = 0; i < 7; i++) {
+    pound += `${"#"}`;
+    console.log(`${pound}`);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

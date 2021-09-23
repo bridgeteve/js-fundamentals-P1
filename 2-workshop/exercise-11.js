@@ -15,6 +15,24 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let chessboard = "";
+  let size = 8;
+
+  for (let i = 0; i < `${size}`; i++) {
+    let poundUnderscore = i % 2 === 0;
+    switch (poundUnderscore) {
+      case true:
+        chessboard += "#";
+        break;
+      case false:
+        chessboard += "_";
+        break;
+    }
+  }
+  chessboard += "\n";
+
+  console.log(chessboard);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
